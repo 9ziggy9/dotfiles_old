@@ -1,0 +1,15 @@
+[Document]
+ChangeColors=true
+RenderMode=InvertLightness
+
+[General]
+ttsEngine=
+
+[Main View]
+ShowLeftPanel=false
+
+[PageView]
+ShowScrollBars=false
+
+[Reviews]
+QuickAnnotationTools=<tool id="1" type="highlight" name="Yellow Highlighter"><engine type="TextSelector" color="#ffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool id="2" type="highlight" name="Green Highlighter"><engine type="TextSelector" color="#00ff00"><annotation type="Highlight" color="#ff00ff00"/></engine><shortcut>2</shortcut></tool>,<tool id="3" type="underline"><engine type="TextSelector" color="#ff0000"><annotation type="Underline" color="#ffff0000"/></engine><shortcut>3</shortcut></tool>,<tool id="4" type="typewriter" name="Insert Text"><engine type="PickPoint" block="true"><annotation width="0" type="Typewriter" color="#00ffffff" textColor="#000000"/></engine><shortcut>4</shortcut></tool>,<tool id="5" type="note-inline"><engine hoverIcon="tool-note-inline" type="PickPoint" color="#ffff00" block="true"><annotation type="FreeText" color="#ffffff00" textColor="#ff000000"/></engine><shortcut>5</shortcut></tool>,<tool id="6" type="note-linked"><engine hoverIcon="tool-note" type="PickPoint" color="#ffff00"><annotation icon="Note" type="Text" color="#ffffff00"/></engine><shortcut>6</shortcut></tool>
