@@ -73,6 +73,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
+    Plug 'easymotion/vim-easymotion'
+
+    " Easymotion    
+    nmap f <Plug>(easymotion-overwin-f2)
 
     " Deoplete.
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } 
@@ -104,8 +108,25 @@ vnoremap <space>/ :Commentary<CR>
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
-map <C-f> :Fils<CR>
-map <leader>b :Buffers<CR>
+map <C-f> :/
+map <leader>l :Lines<CR>
+map <leader>L :BLines<CR>
+map <leader>f :FZF<CR>
+nnoremap <leader>g :Rg<CR>
+nnoremap <leader>t :Tags<CR>
+nnoremap <leader>m :Marks<CR>
+
+
+let g:fzf_tags_command = 'ctags -R'
+" Border color
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
+
+let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
+let $FZF_DEFAULT_COMMAND="rg --files --hidden"
+
+
+" Customize fzf colors to match your color scheme
+map <leader>f :FZF<CR>
 nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <leader>m :Marks<CR>

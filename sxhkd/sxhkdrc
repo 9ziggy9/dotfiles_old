@@ -10,6 +10,10 @@ super + p
 super + d
     tdrop -ma -w -4 -y "$PANEL_HEIGHT" -s dropdown konsole
 
+#Stat start up script
+super + alt + ctrl + KP_Divide
+    /home/ziggy/SCRIPTS/stat_start.sh
+
 # Expand/contract a window by moving one of its side outward/inward
 super + s : {Left,Down,Up,Right}
     STEP=20; SELECTION={1,2,3,4}; \
@@ -60,6 +64,6 @@ super + alt + {1-9}
 	bspc node -o 0.{1-9}
 
 # focus or send to the given desktop
-super + {_,shift + }{1-9,0}
+super + {_,shift + }{Delete, End, Next, Insert, Home, Prior, Print, Scroll_Lock, Pause}
         bspc {desktop -f,node -d} '^{1-9,10}'
 
