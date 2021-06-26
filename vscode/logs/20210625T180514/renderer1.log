@@ -1,0 +1,32 @@
+[2021-06-25 18:19:48.739] [renderer1] [error] ListError [TerminalTabsList] Invalid index 0: Error: ListError [TerminalTabsList] Invalid index 0
+    at N.setSelection (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:142:8994)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2258:28431
+    at n.fire (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1835)
+    at V.setActiveInstanceByIndex (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2938:27076)
+    at V._showBackgroundTerminal (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2938:38882)
+    at V.setActiveInstance (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2938:25777)
+    at c.$show (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1999:14841)
+    at r._doInvokeHandler (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1832:11905)
+    at r._invokeHandler (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1832:11597)
+    at r._receiveRequest (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1832:10259)
+    at r._receiveOneMessage (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1832:9257)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1832:7166
+    at n.fire (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1835)
+    at a.fire (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:76:16288)
+    at i._receiveMessage (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:76:21546)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:76:18432
+    at n.fire (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1835)
+    at u.acceptChunk (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:76:13649)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:76:12997
+    at Socket.D (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2938:132926)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-06-25 18:20:00.637] [renderer1] [error] Could NOT open editor for "file:///home/ziggy/SOURCE/C/gol/main.c" because another editor opened in the meantime.: Error: Could NOT open editor for "file:///home/ziggy/SOURCE/C/gol/main.c" because another editor opened in the meantime.
+    at D.showTextDocument (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:47338)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-06-25 18:23:20.729] [renderer1] [error] Could NOT open editor for "file:///home/ziggy/SOURCE/C/gol/logic.h" because another editor opened in the meantime.: Error: Could NOT open editor for "file:///home/ziggy/SOURCE/C/gol/logic.h" because another editor opened in the meantime.
+    at D.showTextDocument (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:47338)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)

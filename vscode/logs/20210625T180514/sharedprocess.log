@@ -1,0 +1,36 @@
+[2021-06-25 18:05:56.306] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-25 18:07:36.861] [sharedprocess] [info] Installing extension: tomrijndorp.find-it-faster
+[2021-06-25 18:07:37.743] [sharedprocess] [info] Downloaded extension: tomrijndorp.find-it-faster /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/tomrijndorp.find-it-faster-0.0.6
+[2021-06-25 18:07:37.827] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.5ff1e252-15a4-4cf4-ad9a-dedf314145c3: tomrijndorp.find-it-faster
+[2021-06-25 18:07:37.833] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/tomrijndorp.find-it-faster-0.0.6
+[2021-06-25 18:07:37.834] [sharedprocess] [info] Installation completed. tomrijndorp.find-it-faster
+[2021-06-25 18:07:37.840] [sharedprocess] [info] Extensions installed successfully: tomrijndorp.find-it-faster
+[2021-06-25 18:08:34.699] [sharedprocess] [info] Installing extension: wmaurer.vscode-jumpy
+[2021-06-25 18:08:34.918] [sharedprocess] [info] Downloaded extension: wmaurer.vscode-jumpy /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/wmaurer.vscode-jumpy-0.3.1
+[2021-06-25 18:08:34.949] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.29f1637c-9462-49ba-9c9a-3051a52f3d20: wmaurer.vscode-jumpy
+[2021-06-25 18:08:34.955] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/wmaurer.vscode-jumpy-0.3.1
+[2021-06-25 18:08:34.957] [sharedprocess] [info] Installation completed. wmaurer.vscode-jumpy
+[2021-06-25 18:08:34.962] [sharedprocess] [info] Extensions installed successfully: wmaurer.vscode-jumpy
+[2021-06-25 18:29:04.749] [sharedprocess] [info] Installing extension: skattyadz.vscode-quick-scope
+[2021-06-25 18:29:05.280] [sharedprocess] [info] Downloaded extension: skattyadz.vscode-quick-scope /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/skattyadz.vscode-quick-scope-0.2.0
+[2021-06-25 18:29:05.303] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.32d58b53-f876-43de-9e1b-610a29c793a6: skattyadz.vscode-quick-scope
+[2021-06-25 18:29:05.308] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/skattyadz.vscode-quick-scope-0.2.0
+[2021-06-25 18:29:05.311] [sharedprocess] [info] Installation completed. skattyadz.vscode-quick-scope
+[2021-06-25 18:29:05.316] [sharedprocess] [info] Extensions installed successfully: skattyadz.vscode-quick-scope
+[2021-06-25 18:32:37.251] [sharedprocess] [info] Installing extension: mksafi.find-jump
+[2021-06-25 18:32:38.045] [sharedprocess] [info] Downloaded extension: mksafi.find-jump /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/mksafi.find-jump-1.2.4
+[2021-06-25 18:32:38.084] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.fbd1a15d-6a73-449a-a6ed-51744c664586: mksafi.find-jump
+[2021-06-25 18:32:38.089] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/mksafi.find-jump-1.2.4
+[2021-06-25 18:32:38.091] [sharedprocess] [info] Installation completed. mksafi.find-jump
+[2021-06-25 18:32:38.097] [sharedprocess] [info] Extensions installed successfully: mksafi.find-jump
+[2021-06-25 18:34:04.187] [sharedprocess] [info] Uninstalling extension: mksafi.find-jump
+[2021-06-25 18:34:04.198] [sharedprocess] [info] Successfully uninstalled extension: mksafi.find-jump
+[2021-06-25 18:34:10.583] [sharedprocess] [info] Uninstalling extension: wmaurer.vscode-jumpy
+[2021-06-25 18:34:10.596] [sharedprocess] [info] Successfully uninstalled extension: wmaurer.vscode-jumpy
+[2021-06-25 18:34:10.798] [sharedprocess] [info] Detected extension removed from another source wmaurer.vscode-jumpy
+[2021-06-25 18:34:45.886] [sharedprocess] [info] Installing extension: tranhl.find-then-jump
+[2021-06-25 18:34:46.774] [sharedprocess] [info] Downloaded extension: tranhl.find-then-jump /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/tranhl.find-then-jump-2.0.5
+[2021-06-25 18:34:46.857] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.4438ec5a-490f-41fe-9794-5c3d99a14222: tranhl.find-then-jump
+[2021-06-25 18:34:46.858] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/tranhl.find-then-jump-2.0.5
+[2021-06-25 18:34:46.859] [sharedprocess] [info] Installation completed. tranhl.find-then-jump
+[2021-06-25 18:34:46.862] [sharedprocess] [info] Extensions installed successfully: tranhl.find-then-jump

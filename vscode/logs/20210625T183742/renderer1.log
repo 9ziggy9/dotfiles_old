@@ -1,0 +1,12 @@
+[2021-06-25 18:45:47.649] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756
+[2021-06-25 18:45:49.291] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756
+[2021-06-25 18:45:50.343] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756
+[2021-06-25 18:45:52.949] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756
+[2021-06-25 18:46:18.381] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756
+[2021-06-25 18:46:19.573] [renderer1] [error] cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory): Error: cannot open file:///. Detail: Unable to read file '/' (Error: Unable to read file '/' that is actually a directory)
+    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2518:76756

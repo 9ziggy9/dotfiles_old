@@ -1,0 +1,55 @@
+[2021-06-25 18:50:26.588] [exthost] [info] extension host started
+[2021-06-25 18:50:26.747] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-25 18:50:26.747] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-25 18:50:26.752] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-25 18:50:26.752] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/git/dist/main
+[2021-06-25 18:50:26.798] [exthost] [info] ExtensionService#_doActivateExtension nowsci.glassit-linux {"startup":true,"extensionId":{"value":"nowsci.glassit-linux","_lower":"nowsci.glassit-linux"},"activationEvent":"*"}
+[2021-06-25 18:50:26.798] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ziggy/.vscode-oss/extensions/nowsci.glassit-linux-1.0.0/extension.js
+[2021-06-25 18:50:26.799] [exthost] [info] ExtensionService#_doActivateExtension skattyadz.vscode-quick-scope {"startup":true,"extensionId":{"value":"skattyadz.vscode-quick-scope","_lower":"skattyadz.vscode-quick-scope"},"activationEvent":"*"}
+[2021-06-25 18:50:26.799] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ziggy/.vscode-oss/extensions/skattyadz.vscode-quick-scope-0.2.0/out/extension
+[2021-06-25 18:50:26.800] [exthost] [info] ExtensionService#_doActivateExtension tranhl.find-then-jump {"startup":true,"extensionId":{"value":"tranhl.find-then-jump","_lower":"tranhl.find-then-jump"},"activationEvent":"*"}
+[2021-06-25 18:50:26.800] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ziggy/.vscode-oss/extensions/tranhl.find-then-jump-2.0.5/dist/extension.js
+[2021-06-25 18:50:26.808] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-06-25 18:50:26.809] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ziggy/.vscode-oss/extensions/vscodevim.vim-1.21.3/out/extension
+[2021-06-25 18:50:27.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-25 18:50:27.053] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/github/dist/extension.js
+[2021-06-25 18:50:27.110] [exthost] [info] eager extensions activated
+[2021-06-25 18:50:27.125] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-25 18:50:27.126] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-25 18:50:27.304] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-06-25 18:50:27.305] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-25 18:50:27.315] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-06-25 18:50:27.315] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-25 18:50:27.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-06-25 18:50:27.318] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-06-25 18:50:27.319] [exthost] [info] ExtensionService#_doActivateExtension TomRijndorp.find-it-faster {"startup":false,"extensionId":{"value":"TomRijndorp.find-it-faster","_lower":"tomrijndorp.find-it-faster"},"activationEvent":"onStartupFinished"}
+[2021-06-25 18:50:27.319] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ziggy/.vscode-oss/extensions/tomrijndorp.find-it-faster-0.0.6/out/extension.js
+[2021-06-25 18:52:29.859] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-25 18:52:29.859] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-06-25 18:52:29.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-25 18:52:29.871] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-06-25 18:52:29.926] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-06-25 18:52:29.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2021-06-25 18:53:50.749] [exthost] [warning] TextEditor is closed/disposed
+[2021-06-25 18:53:50.749] [exthost] [warning] TextEditor is closed/disposed
+[2021-06-25 18:53:50.821] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model1) has been disposed"}
+[2021-06-25 18:57:52.828] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-06-25 18:57:53.212] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'x'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/ziggy/.vscode-oss/extensions/vscodevim.vim-1.21.3/src/register/register.ts:354:16
+    at runMicrotasks (<anonymous>)
+    at process.async (internal/process/task_queues.js:93:5)
+    at Object.e.deactivate (/home/ziggy/.vscode-oss/extensions/vscodevim.vim-1.21.3/extension.ts:36:8)
+    at async Promise.all (index 14)
+    at m.deactivateAll (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10002)
+[2021-06-25 18:57:53.215] [exthost] [error] TypeError: Cannot read property 'sendText' of undefined
+    at handleCanaryFileChange (/home/ziggy/.vscode-oss/extensions/tomrijndorp.find-it-faster-0.0.6/out/extension.js:271:14)
+    at FSWatcher.<anonymous> (/home/ziggy/.vscode-oss/extensions/tomrijndorp.find-it-faster-0.0.6/out/extension.js:242:13)
+    at FSWatcher.emit (events.js:315:20)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:186:12)
+[2021-06-25 18:57:53.840] [exthost] [info] exiting with code 0
