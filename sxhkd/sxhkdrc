@@ -8,7 +8,7 @@ super + p
 
 # Drop down  terminal
 super + d
-    tdrop -ma -w -4 -y "$PANEL_HEIGHT" -s dropdown konsole
+    tdrop -ma -w 50% -h 50% -y "270" -x "480" -s dropdown konsole
 
 #Stat start up script
 super + alt + ctrl + KP_Divide
