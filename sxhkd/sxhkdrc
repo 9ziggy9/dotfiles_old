@@ -36,9 +36,10 @@ super + x
 super + shift + XF86Back
 	bspc node -s biggest
 
+#Please not the usage of \~ !!!! THis allows for toggling modes!!!
 # Set window state
 super + {t,shift+t,l,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+	bspc node -t {tiled,pseudo_tiled,\~floating,\~fullscreen}
 
 # alternate between the tiled and monocle layout
 super + m
@@ -64,6 +65,7 @@ super + alt + {1-9}
 	bspc node -o 0.{1-9}
 
 # focus or send to the given desktop
-super + {_,shift + }{Delete, End, Next, Insert, Home, Prior, Print, Scroll_Lock, Pause}
-        bspc {desktop -f,node -d} '^{1-9,10}'
-
+super + {_,shift + }{Delete, End, Next, Insert, Home, Prior}
+        bspc {desktop -f,node -d} '^{1-6}'
+super + alt + {_,shift + }{Delete, End, Next, Insert, Home}
+        bspc {desktop -f,node -d} '^{7-9,10,11,12}'
