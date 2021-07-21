@@ -1,6 +1,6 @@
 # Spawn terminal
 super + Return
-    alacritty
+    konsole
 
 # Launch dmenu
 super + p
@@ -8,7 +8,7 @@ super + p
 
 # Drop down  terminal
 super + d
-    tdrop -ma -w 50% -h 50% -y "270" -x "480" -s dropdown alacritty
+    tdrop -ma -w 50% -h 50% -y "270" -x "480" -s dropdown konsole
 
 #Stat start up script
 super + alt + ctrl + KP_Divide
