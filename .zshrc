@@ -1,4 +1,4 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# nable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 
@@ -80,6 +80,7 @@ plugins=(git
         zsh-syntax-highlighting
         zsh-autosuggestions
         vi-mode
+        clipboard
         )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,34 +112,11 @@ export FZF_BASE=/bin/fzf
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Typical aliases
-alias code="code-oss"
-alias neofetch="echo '\n' && neofetch"
-
-#Flatpaks
-alias zoom="flatpak run us.zoom.Zoom &"
-alias discord="dbus-run-session flatpak run com.discordapp.Discord"
-alias slack="dbus-run-session flatpak run com.slack.Slack"
-
-tty_cpu ()
-{
-vmstat -n 1 | gawk '{ print 100-int($(NF-2)); fflush(); }' | ttyplot
-}
-
-ge () {
-  rg $1 | fzf | awk -F ':' '{print $1}' | xargs -I{} nvim {}
-}
-
-fd ()
-{
-  cd $( find ~ -type d -print | fzf )
-}
-
-fe () {
-  find ~ -print | fzf | xargs -I{} nvim {}
-}
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
