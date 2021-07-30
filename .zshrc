@@ -79,7 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git
         zsh-syntax-highlighting
         zsh-autosuggestions
-	zsh-vi-mode
+	vi-mode
         )
 
 source $ZSH/oh-my-zsh.sh
