@@ -23,7 +23,7 @@ class fzf_browse(Command):
             else:
                 self.fm.select_file(fzf_file)
 
-class fzf_select(Command):
+class fd(Command):
     """
     :fzf_select
 
