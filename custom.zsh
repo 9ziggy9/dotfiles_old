@@ -1,6 +1,4 @@
 #Typical aliases
-alias key_me="echo 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 | pbcopy"
-alias code="code-oss"
 alias neofetch="echo '\n' && neofetch"
 alias chat="discord & slack &"
 alias aledit="nvim /home/ziggy/.oh-my-zsh/custom/custom.zsh"
