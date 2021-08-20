@@ -1,9 +1,0 @@
-[2021-06-25 12:06:03.287] [renderer1] [error] Cannot read property 'root' of undefined: TypeError: Cannot read property 'root' of undefined
-    at Jt.refreshTree (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2416:57106)
-    at Jt.renderTree (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2416:56907)
-    at file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2416:38051
-    at n.fire (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1835)
-    at d.updateWorkspaceTrust (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2863:130306)
-    at async file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:2863:127177
-[2021-06-25 12:06:23.293] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2021-06-25 12:06:23.295] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

@@ -1,9 +1,0 @@
-[2021-06-25 12:05:29.944] [sharedprocess] [info] Installing extension: nowsci.glassit-linux
-[2021-06-25 12:05:29.952] [sharedprocess] [info] Downloaded extension: nowsci.glassit-linux /home/ziggy/.config/Code - OSS/CachedExtensionVSIXs/nowsci.glassit-linux-1.0.0
-[2021-06-25 12:05:30.010] [sharedprocess] [info] Extracted extension to /home/ziggy/.vscode-oss/extensions/.b788fa96-64ba-4d61-aa73-8f31324b9383: nowsci.glassit-linux
-[2021-06-25 12:05:30.017] [sharedprocess] [info] Renamed to /home/ziggy/.vscode-oss/extensions/nowsci.glassit-linux-1.0.0
-[2021-06-25 12:05:30.020] [sharedprocess] [info] Installation completed. nowsci.glassit-linux
-[2021-06-25 12:05:30.027] [sharedprocess] [info] Extensions installed successfully: nowsci.glassit-linux
-[2021-06-25 12:05:41.790] [sharedprocess] [info] Uninstalling extension: s-nlf-fh.glassit
-[2021-06-25 12:05:41.801] [sharedprocess] [info] Successfully uninstalled extension: s-nlf-fh.glassit
-[2021-06-25 12:05:42.989] [sharedprocess] [info] Starting to clean up unused language packs.
