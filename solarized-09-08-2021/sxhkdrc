@@ -1,0 +1,91 @@
+# Spawn terminal
+super + Return
+    alacritty
+
+## ROFI STUFF ###
+#Application launcher
+super + p
+    rofi -combi-modi "run,window" -show combi
+#Window switcher
+super + P
+    rofi -modi "window" -show window
+#Calculator
+super + XF86Calculator
+    rofi -modi calc -show calc
+#Notes
+super + XF86AudioMute
+    $HOME/scripts/rofi_note.sh
+##################
+
+# Drop down  terminal
+super + d
+    tdrop -ma -w 50% -h 50% -y "270" -x "480" -s dropdown alacritty --config-file $HOME/.config/alacritty/alacritty_ranger.yml
+
+#Stat start up script
+super + alt + ctrl + KP_Divide
+    /home/ziggy/scripts/stat_start.sh
+
+# Expand/contract a window by moving one of its side outward/inward
+super + s : {Left,Down,Up,Right}
+    STEP=20; SELECTION={1,2,3,4}; \
+    bspc node -z $(echo "left -$STEP 0,bottom 0 $STEP,top 0 -$STEP,right $STEP 0" | cut -d',' -f$SELECTION) || \
+    bspc node -z $(echo "right -$STEP 0,top 0 $STEP,bottom 0 -$STEP,left $STEP 0" | cut -d',' -f$SELECTION)
+
+# Reload sxhkdrc
+super + shift + r
+    pkill -usr1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
+
+# Quit/restart bspwm
+super + {Escape,r} 
+	bspc {quit,wm -r}
+
+# Close and kill
+super + x
+	bspc node -c
+
+# Swap the current node and the biggest node
+super + shift + XF86Back
+	bspc node -s biggest
+
+#Please not the usage of \~ !!!! THis allows for toggling modes!!!
+# Set window state
+super + {t,shift+t,shift+f,f}
+	bspc node -t {tiled,pseudo_tiled,\~floating,\~fullscreen}
+
+# alternate between the tiled and monocle layout
+super + m
+        bspc desktop -l next
+
+# Focus the node in the given direction
+super + {Left,Down,Up,Right}
+ 	bspc node -f {west,south,north,east}
+# Move node in the given direction
+super + shift + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
+# Focus the node in the given direction
+super + {h,j,k,l}
+ 	bspc node -f {west,south,north,east}
+# Move node in the given direction
+super + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east}
+
+# Preselect the direction
+super + alt + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+# Preselect the direction
+super + alt + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# Cancel the preselection for the focused node
+super + alt + space
+	bspc node -p cancel
+
+# Preselect the ratio
+super + alt + {1-9}
+	bspc node -o 0.{1-9}
+
+# focus or send to the given desktop
+super + {_,shift + }{Delete, End, Next, Insert, Home, Prior}
+        bspc {desktop -f,node -d} '^{1-6}'
+super + alt + {_,shift + }{Delete, End, Next, Insert, Home}
+        bspc {desktop -f,node -d} '^{7-9,10,11,12}'
